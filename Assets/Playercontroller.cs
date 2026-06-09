@@ -18,7 +18,7 @@ public class Playercontroller : MonoBehaviour
         {
             //busca el componente si no fue colocado en el inspector
             rb = GetComponent<Rigidbody>();
-        }
+        }h
         //congela las rotaciones y bloquea la profundidad
         rb.constraints = RigidbodyConstraints.FreezeRotation | RigidbodyConstraints.FreezePositionZ;
     }
